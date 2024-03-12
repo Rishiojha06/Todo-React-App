@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-box {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-name {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.center-placeholder {
+  text-align: center;
+}
+
+.bharat-clock-app-name {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.center-placeholder {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-4 {
+  width: 30%;
+}
+
+.kg-row {
+  margin: 7px 3px;
+}
+
+.kg-btn {
+  min-width: 80px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.line-1 {
+  font-weight: 500;
+  font-size: larger;
+}
+
+.line-2 {
+  font-weight: 500;
+  font-size: larger;
+}
+
+.welcome {
+  font-size: 30px;
+  margin-top: 30px;
+}
